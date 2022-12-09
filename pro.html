@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="pro.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="pro.html"><img src="imgs/logo_5.png" width="50" /></a>
+                </div>
+                <nav>
+                    <ul id="Menu-items">
+                        <li><a href="pro.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="pro.html#about">About</a></li>
+                        <li><a href="pro.html#contact">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+
+                    </ul>
+                </nav>
+                <a href="account.html"><img src="imgs/cart.png" width="20px" height="20px"></a>
+                <img src="imgs/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give your Workout<br> A New Style!</h1>
+                    <p>Sucess isn't always about greatness. It's about consistency.consistent<br> hard work gains
+                        success.
+                        greateness will come. </p>
+                    <a href="products.html" class="btn">Explore Now &#8594</a>
+                </div>
+                <div class="col-2">
+                    <img src="imgs/lab_6.jpg" width="650px" height="470px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------featured categories--->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="imgs/phone_3.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="imgs/lab_3.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="imgs/lab_7.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------featured products------->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="imgs/phone_4.jpg">
+                <div class="cate">
+                    <h4>OnePlus 9 Sandstone</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$250.00</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="imgs/phone_1.jpg">
+                <div class="cate">
+                    <h4>Apple 11 pro</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$120.00</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="imgs/lab_2.jpg">
+                <div class="cate">
+                    <h4>Apple Macbook Air</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$4100.00</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="imgs/lab_9.jpg">
+                <div class="cate">
+                    <h4>ASUS Pro</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$2990.00</p>
+                </div>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="imgs/lab_11.jpg">
+                <div class="cate">
+                    <h4>Laptop Dell G7</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$1130.00</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="imgs/lab_5.jpg">
+                <div class="cate">
+                    <h4>Lenovo Ideapad3</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$2100.00</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="imgs/lab_12.png">
+                <div class="cate">
+                    <h4>Lenovo yogo6</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$1900.00</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="imgs/lab_13.png">
+                <div class="cate">
+                    <h4>Laptop Hp G8</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$1190.00</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="imgs/phone_5.png">
+                <div class="cate">
+                    <h4>Galaxy Note20</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$190.00</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="imgs/phone_6.png">
+                <div class="cate">
+                    <h4>Iphone 13 pro max</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$390.00</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="imgs/phone_2.jpg">
+                <div class="cate">
+                    <h4>Hawai Phone</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$410.00</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="imgs/phone_9.jpg">
+                <div class="cate">
+                    <h4>Android phones</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$300.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------offer------------------>
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="imgs/lab_2.jpg" class="offer-img" width="400px">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Store</p>
+                    <h1>Smart Band 4</h1>
+                    <small>
+                        The Mi smart Band 4 features a 39.9 larger(Than Mi Band 3)
+                        AMOLED color full-touch display with adjustable brightness
+                        so everything is clear as can be
+                    </small><br>
+                    <a href="products.html" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------testimonial------------->
+    <div class="testimonial" id="about">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam aliquid error odio
+                        illo pariatur eos quisquam quae unde voluptas iste suscipit reprehenderit consectetur eveniet,
+                        fuga vero delectus doloremque at similique!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="imgs/user-1.png" alt="">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam aliquid error odio
+                        illo pariatur eos quisquam quae unde voluptas iste suscipit reprehenderit consectetur eveniet,
+                        fuga vero delectus doloremque at similique!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="imgs/user-2.png" alt="">
+                    <h3>Mike Smith</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam aliquid error odio
+                        illo pariatur eos quisquam quae unde voluptas iste suscipit reprehenderit consectetur eveniet,
+                        fuga vero delectus doloremque at similique!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="imgs/user-3.png" alt="">
+                    <h3>Mabel Joe</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------brands----------------->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="imgs/logo-godrej.png">
+                </div>
+                <div class="col-5">
+                    <img src="imgs/logo-oppo.png">
+                </div>
+                <div class="col-5">
+                    <img src="imgs/logo-coca-cola.png">
+                </div>
+                <div class="col-5">
+                    <img src="imgs/logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="imgs/logo-philips.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------footer---------------->
+    <div class="footer" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Android and IOS</p>
+                    <div class="app-logo">
+                        <img src="imgs/play-store.png">
+                        <img src="imgs/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="imgs/logo-white.png">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and
+                        Benefits of Sports Accessible to the Many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog</li>
+                        <li>Plicy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instgram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright@ 2022</p>
+        </div>
+    </div>
+    <script src="pro.js"></script>
+</body>
+
+</html>
